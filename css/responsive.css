@@ -230,6 +230,9 @@ color: var(--primary-color);
     color: #ffffff;
   }
   
+  .NewBanner .display-4{
+    font-size: 28px;
+  }
 
   .bannertext1 .display-4 a {
     color: #ffffff;
@@ -240,6 +243,7 @@ color: var(--primary-color);
 .workCard {
   width: auto;
 }
+
 }
 
 @media only screen and (max-height: 539.98px){

@@ -677,6 +677,7 @@ text-align: center;
   font-weight: normal;
 }
 .sectionDivider2{
+  padding: 40px 0;
   background-color: var(--primary-color);
   color:#ffffff ;
 }
@@ -685,6 +686,7 @@ text-align: center;
 }
 .sectionDivider2 .fourthH{
   display: table;
+  margin-bottom: 0;
   margin-left: auto;
 }
 .sectionDivider2 .fourthH img{
@@ -846,3 +848,114 @@ text-align: center;
 
 
 /* form section end */
+
+
+
+/*---------------
+   About Page
+----------------*/
+
+
+.NewBanner {
+  padding: 140px 12px;
+  color: #ffffff;
+}
+.NewBanner.ourCompanyPage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/OurCompany/budding_designer.webp') no-repeat center ;
+  background-size: cover;
+}
+.NewBanner.projectsPage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/Projects/ProjectsBanner.webp') no-repeat center ;
+  background-size: cover;
+}
+
+.NewBanner .display-4 span{
+  font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+
+/* ABOUT OUR COMPANY section start */
+.aboutOurComp{
+  background:linear-gradient(to right, #ffffff8a,#ffffff8a), url('../image/OurCompany/about_our_company_backgrond.png') no-repeat center ;
+  background-size: cover;
+}
+.aboutOurComp.designer_KRUTIKA{
+  background: none;
+}
+.aboutOurComp h2.therdH{
+  color: var(--primary-color);
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+  border-bottom: 4px solid var(--primary-color);
+}
+
+.aboutOurComp .fourthH{
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: sans-serif,Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.aboutOurComp p{
+  font-size: 18px;
+}
+.aboutOurComp .imgpart1 p{
+text-align: center;
+padding-bottom: 16px;
+margin-top: 20px;
+margin-bottom: 40px;
+border-bottom: 4px solid var(--primary-color);
+}
+.imgwrapp1{
+  width: 80%;
+  margin: auto;
+}
+/* ABOUT OUR COMPANY section end */
+
+
+/*---------------
+   Projects Page
+----------------*/
+
+
+/* portfolio section  start */
+.portfolio-item{
+  padding: 10px;
+  border: 2px solid var(--lightPink);
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  transition: all 2.25s ;
+  padding: 5em;
+  background-color: #db4d82;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotate3d(1, -1, 0, 100deg);
+  transform: rotate3d(1, -1, 0, 100deg);
+  opacity: 0;
+  transform-style: preserve-3d;
+}
+.portfolio-item:hover .content {
+  -webkit-transform: rotate3d(0, 0, 0, 0deg);
+  transform: rotate3d(0, 0, 0, 0deg);
+  opacity: 0.9;
+}
+
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.description {
+  transform: translateZ(3rem);
+}
+
+
+/* portfolio section end */
