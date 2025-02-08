@@ -108,7 +108,23 @@ color: var(--primary-color);
 .howWeWork .row .col-auto{
   margin: auto;
 }
+.contact_media_box{
+  margin-top: 0;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
 
+.contIconCard:nth-child(1){
+  padding-right: 0px;
+  border-right: none;
+  margin-right: 0px;
+  }
+  .contIconCard:nth-child(2){
+  padding-right: 0px;
+  border-right: none;
+  margin-right: 0px;
+  }
 }
 
 
@@ -194,10 +210,11 @@ color: var(--primary-color);
     font-size: 28px;
   }
 
+  .NewBanner {
+    padding: 50px 12px;
+ }
+
 }
-
-
-
 
 
 
@@ -251,7 +268,19 @@ color: var(--primary-color);
 .workCard {
   width: auto;
 }
-
+.FAQsQues .fourthH{
+  font-size: 15px;
+}
+.FAQsQues .commonAccordion p{
+font-size: 14px;
+}
+.contIconCard a {
+font-size: 16px;
+}
+.contactPage0.sectionDivider2 .secH img {
+  width: 34px;
+  margin-top: -8px;
+}
 }
 
 @media only screen and (max-height: 539.98px){

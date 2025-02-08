@@ -115,6 +115,9 @@ p{
   isolation: isolate;
 }
 
+.wrapheder{
+  height: 110.3px;
+}
 
 
 .achorAbs{
@@ -887,6 +890,23 @@ text-align: center;
   background: linear-gradient(to right, #0000009d,#0000009d), url('../image/Projects/ProjectsBanner.webp') no-repeat center ;
   background-size: cover;
 }
+.NewBanner.howWeWorkPage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/Home/how_we_workBanner.webp') no-repeat center ;
+  background-size: cover;
+}
+.NewBanner.servicePage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/Services/service.webp') no-repeat center ;
+  background-size: cover;
+}
+.NewBanner.faqPage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/FAQ_Banner.jpg') no-repeat right center;
+  background-size: cover;
+}
+.NewBanner.contactPage0{
+  background: linear-gradient(to right, #0000009d,#0000009d), url('../image/ContactUs/contact_usBanner.jpg') no-repeat right center;
+  background-size: cover;
+  text-align: center;
+}
 
 .NewBanner .display-4 span{
   font-family: 'Playfair Display';
@@ -1061,4 +1081,226 @@ font-size: 34px;
 
 .spl-footer{
   display: none;
+}
+
+/*---------------
+  Service Page
+----------------*/
+
+
+.serviceCategories .container>.row{
+  justify-content: center;
+  row-gap: 24px;
+}
+.servInfo{
+  padding: 16px;
+  text-align: center;
+}
+.servCategCard{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  
+}
+.servImg{
+  border: 4px solid var(--lightPink);
+}
+.servImg img{
+  aspect-ratio: 8/5;
+  object-fit: cover;
+}
+
+.servInfo .btn{
+  margin-top: 16px;
+  background-color: var(--lightPink);
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: 600;
+  border: none;
+}
+.servInfo  .btn:active {
+  background-color: var(--lightPink);
+  color: #ffffff;
+}
+
+
+/*---------------
+    FAQ Page
+----------------*/
+
+
+.aboutOurComp.faqPage0 h2.therdH {
+  color: var(--background-color);
+  padding-bottom: 0;
+  margin-bottom: 40px;
+  border-bottom:none;
+}
+
+.aboutOurComp.faqPage0 span.fifthH{
+  display: inline-block;
+  color: var(--lightPink);
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+/************** 
+***FAQs Page***  
+***************/
+.FAQsQues{
+  background: linear-gradient(-45deg, #b0116c, #bf9352f5, #b95d91, #b0116c) no-repeat;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.FAQsQues .fourthH.styledHeading {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.commonAccordion .fourthH {
+  font-weight: 600;
+}
+.commonAccordion p {
+  color: var(--background-color);
+}
+
+.commonAccordion .accordion-item {
+  border: none;
+  border-bottom: 2px solid var(--brandHover);
+}
+
+.commonAccordion .accordion-button::after {
+  content: "\f055";
+  width: unset;
+  color: var(--brandHover);
+  height: unset;
+  margin-left: auto;
+  background-image: none;
+  transition: var(--bs-accordion-btn-icon-transition);
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+}
+
+
+.commonAccordion .accordion-button:not(.collapsed)::after {
+  content: "\f056";
+  transition: var(--bs-accordion-btn-icon-transition);
+  color: #ffffff;
+}
+
+.accordion-button:not(.collapsed),.FAQsQues .accordion-button:focus {
+  box-shadow: none;
+  background-color: var(--dullBlack);
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.lookingForward{
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 16px 20px;
+  border-radius: calc(0.375rem - 1px);
+}
+.lookingForward p{
+  color: var(--background-color);
+}
+.lookingForward .fifthH{
+  color: var(--primary-color);
+}
+
+/***************** 
+***contact Page***  
+*****************/
+
+/* calltoActionCards section start */
+.calltoActionCards{
+  position: relative;
+}
+.contact_media_box{
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -74px;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.contIconCard{
+  display: flex;
+  flex: 0 0 auto;
+  width: auto;
+}
+.cal_ico{
+  margin-top: 4px;
+padding-right: 16px;
+}
+.contIconCard img{
+width: 34px;
+height: 34px;
+}
+
+.contIconCard a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: var(--background-color);
+  transition: color 0.3s ease-in-out;
+}
+.contIconCard a:hover{
+  color: var(--primary-color);
+}
+.contIconCard p{
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.calltoActionCards .social-links{
+  margin-top: 0;
+  }
+.contIconCard:nth-child(1){
+padding-right: 16px;
+border-right: 2px solid var(--grey);
+margin-right: 16px;
+}
+.contIconCard:nth-child(2){
+padding-right: 16px;
+border-right: 2px solid var(--grey);
+margin-right: 16px;
+}
+.contIconCard:nth-child(3) img{
+  width: 40px;
+  height: 40px;
+}
+
+/* calltoActionCards section end */
+
+.contactPage0.sectionDivider2 {
+  background-color: #ffffff;
+  padding-top: 0;
+}
+.contactPage0.sectionDivider2 .secH{
+  display: table;
+  margin-bottom: 0;
+  margin: auto;
+}
+.contactPage0.sectionDivider2 .secH img{
+  width: 44px;
+  margin-top: -8px;
+}
+.contactPage0.sectionDivider2 .secH a{
+  color: var(--background-color);
 }
