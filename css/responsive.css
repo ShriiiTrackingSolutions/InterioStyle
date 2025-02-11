@@ -1,1 +1,242 @@
-:root{--primary-color:#b0116d;--secondary-color:#e9967a;--bgLight:#f5f5f5;--background-color:#1a1a18;--dullBlack:#2b2a28;--grey:#b2b4b3;--darkGrey:#898989;--brandHover:#ca1e83;--lightPink:#f0508c}@media (max-width:1399.98px){.workCard.leftworkcard::after,.workCard.rightworkcard::after{width:72%}.description{font-size:22px}}@media (max-width:1199.98px){.workCard.leftworkcard::after,.workCard.rightworkcard::after{width:38%}.formSection .container>.row{row-gap:30px}}@media (max-width:991.98px){.secH{font-size:38px;line-height:45px}.therdH{font-size:30px;line-height:40px}.navbar-nav{gap:4px}.navbar-expand-lg .navbar-nav .nav-link{padding-top:8px!important;padding-bottom:8px!important}.navbar-nav .nav-link{font-weight:600;color:var(--background-color)}.navbar-nav .nav-link.active:hover,.navbar-nav .show>.nav-link{color:var(--primary-color)}.navbar-nav .nav-link.active{position:relative;color:var(--primary-color)}#ca1.owl-carousel .item,.Banner{height:calc(100vh - 91px)}.footer .container>.row{row-gap:30px}.workCard.leftworkcard::after,.workCard.rightworkcard::after{display:none}.howWeWork .row .col-auto{margin:auto}.contact_media_box{margin-top:0;flex-direction:column;row-gap:20px;align-items:center}.contIconCard:first-child,.contIconCard:nth-child(2){padding-right:0;border-right:none;margin-right:0}}@media (max-width:767.98px){.footer,.footer .secH{text-align:center}.secH{font-size:34px;line-height:40px}.therdH{font-size:24px;line-height:30px}.fourthH{font-size:22px;line-height:28px}.defaultPadding{padding:50px 0}.footer.defaultPadding{padding:34px 0}.footer .secH{margin-bottom:24px}.footer .container>.row{justify-content:center;row-gap:40px}.footer .social-icons,.social-links{justify-content:center}.footer .exploreLinks ul li,.footer .exploreLinks1 ul li{text-align:left}.footer-brand{display:table!important;margin:auto}.footer .locationLink{max-width:304px}.footer ul:not(.footer .exploreLinks1 ul){max-width:304px;margin:auto}.footer .exploreLinks1 ul{max-width:352px}.footer .exploreLinks ul,.footer .exploreLinks1 ul{margin:auto}.BannerWithText{padding:50px 20px}.Banner .fillBtn{font-size:13px}.description{font-size:28px}.NewBanner{padding:50px 12px}}@media (max-width:575.98px){.secH{font-size:32px;line-height:40px}.therdH{font-size:22px;line-height:30px}.fourthH{font-size:20px;line-height:28px}#ca1.owl-carousel .bannerCard{margin:auto}.Banner .owl-nav button{pointer-events:initial;height:40px;width:44px;background-color:var(--skyblue)!important;line-height:1.25;text-transform:capitalize;color:var(--lightGrey)!important}.bannertext1{padding:30px!important;color:#fff}.NewBanner .display-4{font-size:28px}.bannertext1 .display-4 a{color:#fff}.footer .fourthH{margin-bottom:20px}.workCard{width:auto}.FAQsQues .fourthH{font-size:15px}.FAQsQues .commonAccordion p{font-size:14px}.contIconCard a{font-size:16px}.contactPage0.sectionDivider2 .secH img{width:34px;margin-top:-8px}}@media only screen and (max-height:539.98px){#ca1.owl-carousel .item{padding:80px 12px;background-color:red;height:unset}#ca1.owl-carousel .item>.row{position:relative;left:unset;top:unset;transform:unset;width:auto}}@media only screen and (max-height:539.98px) and (max-width:1024px){#ca1.owl-carousel .item{padding:80px 12px;background-color:red;height:unset}#ca1.owl-carousel .item>.row{position:relative;left:unset;top:unset;transform:unset;width:auto}.desktopImg{display:block!important}.mobileImg{display:none!important}}
+:root {
+  --primary-color: #b0116d;
+  --secondary-color: #e9967a;
+  --bgLight: #f5f5f5;
+  --background-color: #1a1a18;
+  --dullBlack: #2b2a28;
+  --grey: #b2b4b3;
+  --darkGrey: #898989;
+  --brandHover: #ca1e83;
+  --lightPink: #f0508c;
+}
+@media (max-width: 1399.98px) {
+  .workCard.leftworkcard::after,
+  .workCard.rightworkcard::after {
+    width: 72%;
+  }
+  .description {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .workCard.leftworkcard::after,
+  .workCard.rightworkcard::after {
+    width: 38%;
+  }
+  .formSection .container > .row {
+    row-gap: 30px;
+  }
+}
+@media (max-width: 991.98px) {
+  .secH {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .therdH {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .navbar-nav {
+    gap: 4px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .navbar-nav .nav-link {
+    font-weight: 600;
+    color: var(--background-color);
+  }
+  .navbar-nav .nav-link.active:hover,
+  .navbar-nav .show > .nav-link {
+    color: var(--primary-color);
+  }
+  .navbar-nav .nav-link.active {
+    position: relative;
+    color: var(--primary-color);
+  }
+  #ca1.owl-carousel .item,
+  .Banner {
+    height: calc(100vh - 91px);
+  }
+  .footer .container > .row {
+    row-gap: 30px;
+  }
+  .workCard.leftworkcard::after,
+  .workCard.rightworkcard::after {
+    display: none;
+  }
+  .howWeWork .row .col-auto {
+    margin: auto;
+  }
+  .contact_media_box {
+    margin-top: 0;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+  .contIconCard:first-child,
+  .contIconCard:nth-child(2) {
+    padding-right: 0;
+    border-right: none;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer,
+  .footer .secH {
+    text-align: center;
+  }
+  .secH {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .therdH {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .fourthH {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .defaultPadding {
+    padding: 50px 0;
+  }
+  .footer.defaultPadding {
+    padding: 34px 0;
+  }
+  .footer .secH {
+    margin-bottom: 24px;
+  }
+  .footer .container > .row {
+    justify-content: center;
+    row-gap: 40px;
+  }
+  .footer .social-icons,
+  .social-links {
+    justify-content: center;
+  }
+  .footer .exploreLinks ul li,
+  .footer .exploreLinks1 ul li {
+    text-align: left;
+  }
+  .footer-brand {
+    display: table !important;
+    margin: auto;
+  }
+  .footer .locationLink {
+    max-width: 304px;
+  }
+  .footer ul:not(.footer .exploreLinks1 ul) {
+    max-width: 304px;
+    margin: auto;
+  }
+  .footer .exploreLinks1 ul {
+    max-width: 352px;
+  }
+  .footer .exploreLinks ul,
+  .footer .exploreLinks1 ul {
+    margin: auto;
+  }
+  .BannerWithText {
+    padding: 50px 20px;
+  }
+  .Banner .fillBtn {
+    font-size: 13px;
+  }
+  .description {
+    font-size: 28px;
+  }
+  .NewBanner {
+    padding: 50px 12px;
+  }
+}
+@media (max-width: 575.98px) {
+  .secH {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .therdH {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .fourthH {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #ca1.owl-carousel .bannerCard {
+    margin: auto;
+  }
+  .Banner .owl-nav button {
+    pointer-events: initial;
+    height: 40px;
+    width: 44px;
+    background-color: var(--skyblue) !important;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: var(--lightGrey) !important;
+  }
+  .bannertext1 {
+    padding: 30px !important;
+    color: #fff;
+  }
+  .NewBanner .display-4 {
+    font-size: 28px;
+  }
+  .bannertext1 .display-4 a {
+    color: #fff;
+  }
+  .footer .fourthH {
+    margin-bottom: 20px;
+  }
+  .workCard {
+    width: auto;
+  }
+  .FAQsQues .fourthH {
+    font-size: 15px;
+  }
+  .FAQsQues .commonAccordion p {
+    font-size: 14px;
+  }
+  .contIconCard a {
+    font-size: 16px;
+  }
+  .contactPage0.sectionDivider2 .secH img {
+    width: 34px;
+    margin-top: -8px;
+  }
+}
+@media only screen and (max-height: 539.98px) {
+  #ca1.owl-carousel .item {
+    padding: 80px 12px;
+    background-color: red;
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .row {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: auto;
+  }
+}
+@media only screen and (max-height: 539.98px) and (max-width: 1024px) {
+  #ca1.owl-carousel .item {
+    padding: 80px 12px;
+    background-color: red;
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .row {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: auto;
+  }
+  .desktopImg {
+    display: block !important;
+  }
+  .mobileImg {
+    display: none !important;
+  }
+}
