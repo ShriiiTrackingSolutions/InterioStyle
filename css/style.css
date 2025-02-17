@@ -532,6 +532,13 @@ p {
 .copyright b:hover {
   color: #fc6ca1;
 }
+.privacy{
+  color: #686868;
+  transition: 0.3s ease-in-out;
+}
+.privacy:hover{
+  color: var(--grey);
+}
 .secH span {
   color: var(--darkGrey);
 }
@@ -1048,3 +1055,5 @@ p {
 .MapSection iframe {
   height: 450px;
 }
+
+
