@@ -189,7 +189,6 @@ p {
   text-transform: uppercase;
 }
 .commonAccordion .accordion-button::after,
-.dropdown-toggle::after,
 .dropend .dropdown-toggle::after {
   font-weight: 900;
   font-family: "Font Awesome 6 Free";
@@ -224,10 +223,12 @@ p {
   border: none;
 }
 .dropdown-toggle::after {
-  content: "\f107";
-  font-size: 14px;
-  line-height: 1;
-  border: none;
+  content: "";
+  display: none;
+}
+.dropdown-toggle svg{
+  margin-bottom: 5px;
+  margin-left: 4px;
 }
 .Banner .therdH,
 .NewBanner .display-4 span,
