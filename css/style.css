@@ -18,6 +18,9 @@
 .secH {
   text-align: center;
 }
+.footer .centerStyle{
+  text-transform: uppercase;
+}
 .emailSec h6,
 .exploreLinks a {
   font-weight: 600;
